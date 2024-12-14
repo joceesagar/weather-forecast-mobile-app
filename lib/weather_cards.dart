@@ -23,6 +23,8 @@ class WeatherCards extends StatelessWidget {
           children: [
             Text(
               time,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
               style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
             const SizedBox(
